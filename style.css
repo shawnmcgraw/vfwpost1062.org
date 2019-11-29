@@ -1,0 +1,49 @@
+/* 
+Theme Name: VFW-Post-1062
+Theme URI: https://shawnmcgraw.net/themes
+Author: Shawn McGraw
+Description: This theme, developed in 2019-2020, brings the Post 1062 website closer
+ to the look and feel of the national VFW website with darker backgrounds, a carousel,
+ and improved images. Designed for both large and small screens using Bootstrap 4. 
+Version: 1.0
+License: MPL 2.0
+License URI: https://www.mozilla.org/en-US/MPL/2.0/
+Tags: VFW, Veterans, veteran, dark, carousel, military
+Text Domain: VFWPost1062
+*/
+
+.placeholder-div {
+  height: 200px;
+  width: auto;
+}
+
+.divider {
+  border-top: 1px solid white;
+}
+
+.img-fit-cover {
+  object-fit: cover;
+}
+
+.op-dark {
+  opacity: 0.5;
+  background-color: #6c757d;
+}
+
+.p-top-85 {
+  padding-top: 85px;
+}
+
+.p-top-40 {
+  padding-top: 40px;
+}
+
+.post-top {
+  height: 50vh;
+}
+
+.mvh-85 {
+  max-height: 90vh;
+}
+
+
