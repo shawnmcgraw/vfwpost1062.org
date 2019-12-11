@@ -46,4 +46,12 @@ Text Domain: VFWPost1062
   max-height: 90vh;
 }
 
+#menu-main > li > a {
+  color: #ccc;
+  text-decoration: none;
+  background-color: transparent;
+}
 
+#menu-main > li > a:hover {
+  color: #fff;
+}

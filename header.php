@@ -22,15 +22,29 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav ">
-          <a class="nav-item nav-link active" href="<?php echo home_url(); ?>">Home <span class="sr-only">(current)</span></a>
+    <!-- <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"> -->
+        
+
+          <?php
+						wp_nav_menu(
+							array(
+                'menu'  => 'main',
+                'theme_location' => 'primary',
+                'container' => 'div',
+                'container_class' => 'collapse navbar-collapse justify-content-end',
+                'container_id'  => 'navbarNavAltMarkup',
+                'menu_class' => 'navbar-nav',
+							)
+						);
+					?>
+
+          <!-- <a class="nav-item nav-link active" href="<?php echo home_url(); ?>">Home <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="#">Join</a>
           <a class="nav-item nav-link" href="#">Contact Us</a>
           <a class="nav-item nav-link" href="#">Calendar</a>
           <a class="nav-item nav-link" href="#">Newsletter</a>
           <a class="nav-item nav-link" href="#">Auxiliary</a>
-          <a class="nav-item nav-link" href="#">Veteran's Resources</a>
-        </div>
-      </div>
+          <a class="nav-item nav-link" href="#">Veteran's Resources</a> -->
+        
+      <!-- </div> -->
   </nav>

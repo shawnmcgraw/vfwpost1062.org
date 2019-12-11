@@ -15,4 +15,3 @@ function adminBarPadding() {
     navBar.style.top = "30px";
   }
 }
-
