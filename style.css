@@ -55,3 +55,16 @@ Text Domain: VFWPost1062
 #menu-main > li > a:hover {
   color: #fff;
 }
+
+.post-title > a {
+  color: #ccc;
+}
+
+.post-title > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.post-content {
+  margin-bottom: 25px;
+}

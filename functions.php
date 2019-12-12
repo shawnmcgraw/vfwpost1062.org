@@ -35,26 +35,26 @@
   add_action( 'after_setup_theme', 'posttheme_setup' );
 
   // newsletter custom post type
-  function newsletter_custom_post_type() {
-    register_post_type(
-      'newsletter',
-      array(
-        'rewrite' => array('slug', 'newsletter'),
-        'labels' => array(
-          'name' => 'Newsletter',
-          'singular_name' => 'Newsletter',
-          'add_new_item' => 'Add New Newsletter',
-          'edit_item' => 'Edit Newsletter'
-        ),
-        'menu-icon' => 'dashicons-clipboard',
-        'public' => true,
-        'has_archive' => true,
-        'supports' => array(
-          'title', 'thumbnail', 'editor', 'excerpt'
-        )
-      )
-    );
-  }
+  // function newsletter_custom_post_type() {
+  //   register_post_type(
+  //     'newsletter',
+  //     array(
+  //       'rewrite' => array('slug', 'newsletter'),
+  //       'labels' => array(
+  //         'name' => 'Newsletter',
+  //         'singular_name' => 'Newsletter',
+  //         'add_new_item' => 'Add New Newsletter',
+  //         'edit_item' => 'Edit Newsletter'
+  //       ),
+  //       'menu-icon' => 'dashicons-clipboard',
+  //       'public' => true,
+  //       'has_archive' => true,
+  //       'supports' => array(
+  //         'title', 'thumbnail', 'editor', 'excerpt'
+  //       )
+  //     )
+  //   );
+  // }
 
   add_action( 'init', 'newsletter_custom_post_type' );
 

@@ -10,12 +10,12 @@
         <?php endif ?>
       <div class="container post-top mb-3 text-light" 
         style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?php echo $backgroundImg[0] ?>');
-        backgroun-size: cover;
+        background-size: cover;
         ">
-        <h1 class="post-title display-1">
+        <h1 class="post-title">
           <?php the_title(); ?>
         </h1>
-        <p class="post-meta lead">
+        <p class="post-meta">
           <?php the_date(); ?>
         </p>
       </div>
