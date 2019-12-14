@@ -12,6 +12,8 @@ Tags: VFW, Veterans, veteran, dark, carousel, military
 Text Domain: VFWPost1062
 */
 
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap');
+
 .placeholder-div {
   height: 200px;
   width: auto;
@@ -67,4 +69,8 @@ Text Domain: VFWPost1062
 
 .post-content {
   margin-bottom: 25px;
+}
+
+.stencil {
+  font-family: 'Allerta Stencil', sans-serif;
 }

@@ -12,10 +12,10 @@
         style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?php echo $backgroundImg[0] ?>');
         background-size: cover;
         ">
-        <h1 class="post-title">
+        <h1 class="post-title stencil">
           <?php the_title(); ?>
         </h1>
-        <p class="post-meta">
+        <p class="post-meta stencil">
           <?php the_date(); ?>
         </p>
       </div>

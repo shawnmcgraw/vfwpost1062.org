@@ -13,7 +13,7 @@
         background-size: cover;
         ">
 
-        <h1 class="post-title">
+        <h1 class="post-title stencil">
           <?php the_title(); ?>
         </h1>
       </div>
