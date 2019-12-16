@@ -15,7 +15,7 @@
   <?php wp_head(); ?>
 </head>
 
-<body class="p-top-85" id="body-element" onload="adminBarPadding();">
+<body class="p-top-85" id="body-element" onload="adminBarPadding(); addInputClasses();">
   <!-- navbar -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="header-navbar">
     <a class="navbar-brand" href="<?php echo home_url(); ?>">
