@@ -74,3 +74,37 @@ Text Domain: VFWPost1062
 .stencil {
   font-family: 'Allerta Stencil', sans-serif;
 }
+
+/* form styling */
+
+input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid #555;
+  background-color: #eee;
+}
+
+input:focus {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid #555;
+  background-color: #ccc;
+}
+
+textarea {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid #555;
+  background-color: #eee;
+}
+
+textarea:focus {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 3px solid #555;
+  background-color: #ccc;
+}
