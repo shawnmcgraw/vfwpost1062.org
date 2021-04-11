@@ -34,6 +34,19 @@
   endif; // posttheme_setup
   add_action( 'after_setup_theme', 'posttheme_setup' );
 
+  // adding bs4 classes to menu items
+  function special_nav_class($classes){
+    $classes[] = 'nav-link nav-item';
+    return $classes;
+  }
+  add_filter('nav_menu_css_class', 'special_nav_class', 10, 2);
+
+  // modify elipsis to add read-more link
+  function wpdocs_excerpt_more( $more ) {
+    return '<a href="'.get_the_permalink().'" rel="nofollow"> [...]</a>';
+  }
+  add_filter( 'excerpt_more', 'wpdocs_excerpt_more' );
+
   // newsletter custom post type
   // function newsletter_custom_post_type() {
   //   register_post_type(
